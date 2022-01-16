@@ -3,9 +3,14 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   margin: 0;
+}
+
+.top, .footer {
+  background-color: #1F2937;
+  color: #f9faf8;
 }
 
 .container {
@@ -13,7 +18,34 @@ body {
   margin: 0 auto;
 }
 
-.top, .footer {
-  background-color: #1F2937;
-  color: #f9faf8;
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header .nav li a {
+  text-decoration: none;
+  color: #e5e7eb;
+  margin-right: 30px;
+}
+
+.hero {
+  padding: 60px 0;
+}
+
+.hero .title {
+  font-size: 48px;
+  font-weight: 900;
 }
