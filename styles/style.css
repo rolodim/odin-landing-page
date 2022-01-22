@@ -62,3 +62,13 @@ body {
   flex: 1 1 auto;
   width: 50%;
 }
+
+.hero button {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 40px;
+  background-color: #3882F6;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
