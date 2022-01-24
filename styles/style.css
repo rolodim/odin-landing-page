@@ -30,9 +30,10 @@ body {
   align-items: center;
 }
 
-.header .nav ul {
+.header .nav ul, .info ul {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .header .nav li a {
@@ -42,7 +43,7 @@ body {
 }
 
 .hero {
-  padding: 60px 0;
+  padding: 120px 0;
   display: flex;
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .hero .title {
-  font-size: 64px;
+  font-size: 56px;
   font-weight: 900;
 }
 
@@ -71,4 +72,91 @@ body {
   color: white;
   font-size: 20px;
   font-weight: bold;
+}
+
+.info h2 {
+  padding-top: 20px;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.features {
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.features li {
+  width: 200px;
+}
+
+.features .img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+}
+
+.features p {
+  margin-top: 10px;
+}
+
+.quotes {
+  background-color: #e5e7eb;
+}
+
+.quotes .quote {
+  padding: 150px 100px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quotes .author {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.signup {
+  padding: 60px;
+  margin: 120px auto;
+  background-color: #3882F6;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signup .cta {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta h3 {
+  margin: 0;
+}
+
+.signup button {
+  padding: 8px 35px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.signup .cta-text {
+  color: #e5e7eb;
+}
+
+.footer {
+  padding: 50px 0;
+  text-align: center;
 }
